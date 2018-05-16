@@ -22,3 +22,6 @@ johndoe@example.com
 git config --global core.editor nano
 git config --list
 ```
+
+### Sitio de patrones para .gitignore
+https://www.gitignore.io/
