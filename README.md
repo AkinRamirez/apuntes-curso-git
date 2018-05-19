@@ -25,3 +25,5 @@ git config --list
 
 ### Sitio de patrones para .gitignore
 https://www.gitignore.io/
+
+Esta linea fue creada en la rama master.
