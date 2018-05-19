@@ -5,3 +5,7 @@ Lista las etiquetas en orden alfabetico.
 
 Etiqueta anotada. Se guardan en la base de datos de Git como objetos enteros. Tienen un checksum; contienen el nombre del etiquetador, correo electrónico y fecha; y tienen un mensaje asociado.
 
+```
+git tag -l "v1.*"
+```
+Listar las etiquetas que coincidan con el patron especificado.
