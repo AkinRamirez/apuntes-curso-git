@@ -13,3 +13,7 @@ Muestra el historial con el formato que indicamos.
 
 Las banderas del comando `git log` se pueden usar juntas segun convenga, por ejemplo:
 `git log --after="2018-05-16 23:00:00" --before="2018-05-17 22:00:00"`
+
+`git log --oneline`
+Este comando nos muestra el historial en una sola linea por commit.
+
