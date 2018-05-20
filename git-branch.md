@@ -7,4 +7,5 @@ Nos muestra cuales ramas no han sido fusionadas a la rama actual.
 ### git branch --merge
 Nos muestra cuales las ramas que han sido fusionadas a la rama actual.
 
-
+### Informacion en la rama master
+Se agrega informacion en la rama master.
