@@ -9,3 +9,5 @@ Nos muestra cuales las ramas que han sido fusionadas a la rama actual.
 
 ### Informacion en la rama master
 Se agrega informacion en la rama master.
+### prueba de resolucion de conflicto en ramas
+Esta es una prueba de resolucion de conflictos en las ramas.
