@@ -26,3 +26,6 @@ git config --list
 https://www.gitignore.io/
 
 Esta linea fue creada en la rama master.
+
+## Varios repositorios remotos
+Podemos configurar un mismo proyecto para sincronizar cambios con varios repositorios remotos.
