@@ -29,5 +29,3 @@ Si sobrescribe a la fuerza con su conjunto de cambios, su repositorio no coincid
 Siempre ir por la opcion 1, incluso si usará git usted mismo, porque es una buena práctica.
 
 
-
-
