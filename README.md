@@ -35,3 +35,6 @@ https://www.gitkraken.com/
 
 ## Cliente Git / Github
 https://desktop.github.com
+
+## Documentacion en español sobre Git
+https://git-scm.com/book/es/v2
