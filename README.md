@@ -56,3 +56,42 @@ Usando Git Bash seguimos los siguiente pasos:
 6. Ir a las configuración de nuestro perfil de Github y agregar una nueva llave SSH con el contenido que hemos copiado de github_rsa.pub.
 
 Desde ahora podemos hacer pull y push sin que Github nos esté pidiendo los datos de acceso.
+
+
+## Configuracion de Gitlab
+
+Congiguraciones Globales
+
+```
+git config --global user.name "nombre"
+git config --global user.email "nombre@ejemplo.com"
+```
+
+Creando un nuevo repositorio
+```
+git clone git@gitlab.com:nombre/apuntes-de-git.git
+cd apuntes-de-git
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+```
+
+Folder Existente
+```
+cd existing_folder
+git init
+git remote add origin git@gitlab.com:nombre/apuntes-de-git.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+```
+
+Repositorio Git Existente
+```
+cd existing_repo
+git remote rename origin old-origin
+git remote add origin git@gitlab.com:nombre/apuntes-de-git.git
+git push -u origin --all
+git push -u origin --tags
+```
