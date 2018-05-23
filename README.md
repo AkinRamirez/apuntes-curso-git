@@ -39,5 +39,20 @@ https://desktop.github.com
 ## Documentacion en español sobre Git
 https://git-scm.com/book/es/v2
 
-## Configuracion SSH en Windows
-1. Ejecutamos el comando `ssh-keygen -t rsa -C "mi-correo@ejemplo.com"`.
+## Configuración SSH en Windows
+
+Usando Git Bash seguimos los siguiente pasos:
+
+Creamos una carpeta llamada llaves-ssh en el disco C para evitar problemas de rutas.
+
+Ejecutamos el comando ssh-keygen -t rsa -C "mi-correo@ejemplo.com". El correo debe ser el mismo con el que nos registramos en Github para evitar posibles problemas. Dejamos el passphrase vacío y damos enter. Cuando nos pida la ruta escribimos /c/llaves-ssh/github_rsa.
+
+Iniciamos ssh-agent en background ejecutando el comando eval "$(ssh-agent -s)".
+
+Agregamos la llave ssh generada a ssh-agent ejecutando el comando ssh-add /c/llaves-ssh/github_rsa.
+
+Usar el comando cat /c/llaves-ssh/github_rsa.pub. Con este comando vemos el contenido del archivo, copiamos todo el texto que nos muestra.
+
+Ir a las configuración de nuestro perfil de Github y agregar una nueva llave SSH con el contenido que hemos copiado de github_rsa.pub.
+
+Desde ahora podemos hacer pull y push sin que Github nos esté pidiendo los datos de acceso.
