@@ -38,3 +38,6 @@ https://desktop.github.com
 
 ## Documentacion en español sobre Git
 https://git-scm.com/book/es/v2
+
+## Configuracion SSH en Windows
+1. Ejecutamos el comando `ssh-keygen -t rsa -C "mi-correo@ejemplo.com"`.
