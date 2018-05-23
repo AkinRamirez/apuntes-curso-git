@@ -23,8 +23,6 @@ Como git es un DVCS, idealmente muchos otros desarrolladores están trabajando e
 
 Si sobrescribe a la fuerza con su conjunto de cambios, su repositorio no coincidirá con el de otras personas, porque "reescribió el historial". Harás a otras personas infelices y el repositorio sufrirá. Probablemente un gatito en el mundo llorará también.
 
-TL;DR
-
 1. Si quiere resolver, busque primero (y luego fusione).
 2. Si quiere hackear, use la opción `--force` .
 
